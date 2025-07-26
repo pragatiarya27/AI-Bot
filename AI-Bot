@@ -1,0 +1,6 @@
+This rule-based chatbot is a simple Python program that responds to user input using predefined rules.
+It works by continuously taking user input through the terminal and checking it against a set of conditions using `if-elif-else` statements.
+For example, if the user says "hi" or "hello", the bot replies with a greeting. If the input contains keywords like "time" or "weather", it responds with the current time or a generic weather message. 
+The chatbot uses basic string matching and doesn't involve any artificial intelligence—it purely reacts based on exact or partial keyword matches. It also includes an exit condition: if the user types "bye", "exit", or "quit", the chatbot ends the conversation. 
+This makes it ideal for beginner-level chatbot projects where simplicity, clarity, and control over responses are preferred. 
+The chatbot is easily extendable by adding more `elif` conditions for new responses.
